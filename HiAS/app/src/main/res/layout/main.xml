@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="8dp"
+              android:minWidth="320dp"
+              android:minHeight="196dp"
+        >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Package Name:"
+            android:id="@+id/textView"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="2dp"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPackage"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save &amp; Try"
+            android:id="@+id/btnSave"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"/>
+    <View android:layout_width="match_parent" android:layout_height="1px" android:background="#333333"
+          android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="8dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/view_data_transmission"
+                android:id="@+id/tvViewDT"
+                android:textColor="#6699FF"
+                android:clickable="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/btn_delete_tmp"
+            android:id="@+id/tvDelTmp"
+            android:textColor="#6699FF"
+            android:clickable="true"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

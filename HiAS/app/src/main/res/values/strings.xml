@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HiAS</string>
+    <string name="notify_title">HiAS: 点击设置应用</string>
+    <string name="notify_tips">将可打开该应用的管理页</string>
+    <string name="view_data_transmission">查看应用数据流量</string>
+    <string name="btn_delete_tmp">清除存储卡tmp文件</string>
+    <string name="format_traffic_data0">▲↑⇪⇧ - %1$s，▼↓⇩ - %2$s</string>
+    <string name="format_traffic_data"><![CDATA[<font color="#94CE00">▲</font>  %1$s &nbsp;&nbsp;-&nbsp;&nbsp; <font color="#FFA63A">▼</font>  %2$s]]></string>
+    <string name="err_pkg_not_found">设置的包名未找到</string>
+    <string name="data_default">-</string>
+    <string name="c_tmp_file">SDCard上的Comcat截图临时文件</string>
+    <string name="toggle_dump_dt">后台自动监控流量</string>
+    <string name="label_interval">频率（单位：秒）</string>
+    <string name="srv_action_default">com.mrqyoung.hias.DUMP_DATA_TRAFFIC</string>
+</resources>

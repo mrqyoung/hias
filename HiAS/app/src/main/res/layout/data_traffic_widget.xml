@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+<LinearLayout android:id="@+id/layoutWidget"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bb000000"
+    android:padding="8dp">
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/btnRefresh"
+        android:src="@android:drawable/stat_notify_sync"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/btn_refresh_bg" />
+
+    <TextView android:layout_height="match_parent" android:layout_width="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#9933b5e5" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/wifi"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_default"
+            android:id="@+id/tvWifi"
+            android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <TextView android:layout_height="1px" android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#777" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/net"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_default"
+            android:id="@+id/tvNet"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout></LinearLayout>
+</LinearLayout>
+    <ImageView android:id="@+id/app_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="right" />
+</FrameLayout>
